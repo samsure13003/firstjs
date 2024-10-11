@@ -1,0 +1,12 @@
+let useronevalue = prompt("First data: ");
+let usertwovalue =prompt("Second data: ");
+useronevalue=parseInt(useronevalue);
+usertwovalue=parseInt(usertwovalue);
+const result=useronevalue+usertwovalue;
+const result2=useronevalue-usertwovalue;
+const result3=useronevalue*usertwovalue;
+const result4=useronevalue/usertwovalue;
+document.write(" Addition : "+result + "<br>");
+document.write(" Subtraction : "+result2 + "<br>");
+document.write(" Multiplication : "+result3 + "<br>");
+document.write(" Division : "+result4 );
